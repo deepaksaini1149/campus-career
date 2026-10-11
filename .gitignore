@@ -1,0 +1,11 @@
+
+node_modules/
+dist/
+backend/target/
+.env
+.env.*
+!.env.example
+
+# Keep local database credentials out of GitHub
+backend/src/main/resources/application.properties
+application-local.properties
